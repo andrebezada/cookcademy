@@ -13,6 +13,7 @@
 		CE3DF9712891F00100CD2D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DF9702891F00100CD2D9A /* Assets.xcassets */; };
 		CE3DF9742891F00100CD2D9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DF9732891F00100CD2D9A /* Preview Assets.xcassets */; };
 		CE3DF97B2891F33600CD2D9A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DF97A2891F33600CD2D9A /* Recipe.swift */; };
+		CE657543289301DF00CFD7E1 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE657542289301DF00CFD7E1 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		CE3DF97A2891F33600CD2D9A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		CE3DF98028920A3900CD2D9A /* CookcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3DF98D28920D7000CD2D9A /* CookcademyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookcademyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE657542289301DF00CFD7E1 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				CE3DF96E2891EFFE00CD2D9A /* RecipesListView.swift */,
+				CE657542289301DF00CFD7E1 /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3DF97B2891F33600CD2D9A /* Recipe.swift in Sources */,
+				CE657543289301DF00CFD7E1 /* RecipeDetailView.swift in Sources */,
 				CE08B07C289252B2009604C5 /* RecipeData.swift in Sources */,
 				CE3DF96F2891EFFE00CD2D9A /* RecipesListView.swift in Sources */,
 				CE3DF96D2891EFFE00CD2D9A /* CookcademyApp.swift in Sources */,

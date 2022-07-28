@@ -10,6 +10,7 @@ import SwiftUI
 struct RecipesListView: View {
     @StateObject var recipeData = RecipeData()
     
+    
     var body: some View {
         List {
             ForEach(recipes){recipe in
