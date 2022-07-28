@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE08B07C289252B2009604C5 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08B07B289252B2009604C5 /* RecipeData.swift */; };
 		CE3DF96D2891EFFE00CD2D9A /* CookcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DF96C2891EFFE00CD2D9A /* CookcademyApp.swift */; };
 		CE3DF96F2891EFFE00CD2D9A /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DF96E2891EFFE00CD2D9A /* RecipesListView.swift */; };
 		CE3DF9712891F00100CD2D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DF9702891F00100CD2D9A /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE08B07B289252B2009604C5 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		CE3DF9692891EFFE00CD2D9A /* Cookcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3DF96C2891EFFE00CD2D9A /* CookcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyApp.swift; sourceTree = "<group>"; };
 		CE3DF96E2891EFFE00CD2D9A /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		CEEF4BD028924CEE00020D36 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CE08B07B289252B2009604C5 /* RecipeData.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3DF97B2891F33600CD2D9A /* Recipe.swift in Sources */,
+				CE08B07C289252B2009604C5 /* RecipeData.swift in Sources */,
 				CE3DF96F2891EFFE00CD2D9A /* RecipesListView.swift in Sources */,
 				CE3DF96D2891EFFE00CD2D9A /* CookcademyApp.swift in Sources */,
 			);
