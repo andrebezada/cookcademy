@@ -10,16 +10,24 @@ import SwiftUI
 struct RecipesListView: View {
     @StateObject var recipeData = RecipeData()
     
+    private let lisBackgroundColor = AppColor.background
+    private let listTextColor = AppColor.foreground
+    
     
     var body: some View {
         List {
             ForEach(recipes){recipe in
-                Text(recipe.mainInformation.name)
+                NavigationLink(recipe.mainInformation.name,
+                               destination: RecipeDetailView(recipe: recipe))
             }
+            .listRowBackground(lisBackgroundColor)
+            .foregroundColor(listTextColor)
         }
         .navigationTitle(navigationTitle)
     }
 }
+
+
 
 extension RecipesListView {
     var recipes: [Recipe] {
@@ -34,7 +42,8 @@ extension RecipesListView {
 
 struct RecipesListView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipesListView()
-            .previewInterfaceOrientation(.portrait)
+        NavigationView{
+            RecipesListView()
+        }
     }
 }
